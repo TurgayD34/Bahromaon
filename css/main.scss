@@ -1,0 +1,166 @@
+$font-josefin: 'Josefin Sans', sans-serif;
+$font-aleo: 'Aleo', serif;
+.h2-text{
+    font-family: $font-aleo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8E8E8;
+}
+.icons-div{
+    max-width: 353px;
+    width: 100%;
+    height: 163px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+main{
+    .why-choose-us{
+        background-image: url(../images/choose-us.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .choose-us{
+            max-width: 1180px;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            // flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+
+            .article{
+                h2{
+                    margin-top: 40%;
+                    font-family: $font-aleo;
+                    font-family: Aleo;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 36px;
+                    line-height: 26px;
+                    display: flex;
+                    align-items: center;
+                    color: #FFFFFF;
+                }
+                p{
+                    max-width: 560px;
+                    width: 100%;
+                    height: 158px;
+                    margin-top: 50px;
+                    font-family: $font-josefin;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 1.6px;
+                    color: #E8E8E8;
+                }
+            a{
+                text-decoration: none;
+                .explore-btn{
+                    max-width: 228px;
+                    width: 100%;
+                    height: 63px;
+                    background-color: #5474FD;
+                    margin-top: 45px;
+                    border: none;
+                    font-family: $font-aleo;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    letter-spacing: 1.2px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    
+                }
+            }
+        }
+            .img-container{
+                .img1{
+                    margin-top: 20%;
+                    margin-left: 20%;
+                }
+                .img2{
+                    margin-left: 40%;
+                    margin-top: 3%;
+                    margin-bottom: 15%;
+                }
+            }
+        }
+    }
+    .how-it-work{
+        width: 100%;
+        height: 340px;
+        background-color: #333;
+        position: relative;
+        .work{
+            .work-shape{
+                position: absolute;
+                top: 15%;
+                left: 20%;
+                z-index: 0;
+            }
+            .icons{
+                z-index: 1;
+                .search{
+                    @extend .icons-div;
+                    position: absolute;
+                    left: 8%;
+                    top: 35%;
+                    img{
+                        width: 99px;
+                        height: 99px;
+                    }
+                    h2{
+                        @extend .h2-text;
+                        margin-top: 19px;
+                    }
+                }
+                .check{
+                    @extend .icons-div;
+                    position: absolute;
+                    left: 35%;
+                    top: 35%;
+                    img{
+                        width: 99px;
+                        height: 99px;
+                    }
+                    h2{
+                        @extend .h2-text;
+                        margin-top: 19px;
+                    }
+                }
+                .thumb{
+                    @extend .icons-div;
+                    position: absolute;
+                    left: 63%;
+                    top: 35%;
+                    img{
+                        width: 99px;
+                        height: 99px;
+                    }
+                    h2{
+                        @extend .h2-text;
+                        margin-top: 19px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,206 @@
+.h2-text, main .how-it-work .work .icons .search h2, main .how-it-work .work .icons .check h2, main .how-it-work .work .icons .thumb h2 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #E8E8E8;
+}
+
+.icons-div, main .how-it-work .work .icons .search, main .how-it-work .work .icons .check, main .how-it-work .work .icons .thumb {
+  max-width: 353px;
+  width: 100%;
+  height: 163px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .why-choose-us {
+  background-image: url(../images/choose-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+main .why-choose-us .choose-us {
+  max-width: 1180px;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .why-choose-us .choose-us .article h2 {
+  margin-top: 40%;
+  font-family: "Aleo", serif;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+
+main .why-choose-us .choose-us .article p {
+  max-width: 560px;
+  width: 100%;
+  height: 158px;
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+
+main .why-choose-us .choose-us .article a {
+  text-decoration: none;
+}
+
+main .why-choose-us .choose-us .article a .explore-btn {
+  max-width: 228px;
+  width: 100%;
+  height: 63px;
+  background-color: #5474FD;
+  margin-top: 45px;
+  border: none;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+main .why-choose-us .choose-us .img-container .img1 {
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+main .why-choose-us .choose-us .img-container .img2 {
+  margin-left: 40%;
+  margin-top: 3%;
+  margin-bottom: 15%;
+}
+
+main .how-it-work {
+  width: 100%;
+  height: 340px;
+  background-color: #333;
+  position: relative;
+}
+
+main .how-it-work .work .work-shape {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  z-index: 0;
+}
+
+main .how-it-work .work .icons {
+  z-index: 1;
+}
+
+main .how-it-work .work .icons .search {
+  position: absolute;
+  left: 8%;
+  top: 35%;
+}
+
+main .how-it-work .work .icons .search img {
+  width: 99px;
+  height: 99px;
+}
+
+main .how-it-work .work .icons .search h2 {
+  margin-top: 19px;
+}
+
+main .how-it-work .work .icons .check {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+}
+
+main .how-it-work .work .icons .check img {
+  width: 99px;
+  height: 99px;
+}
+
+main .how-it-work .work .icons .check h2 {
+  margin-top: 19px;
+}
+
+main .how-it-work .work .icons .thumb {
+  position: absolute;
+  left: 63%;
+  top: 35%;
+}
+
+main .how-it-work .work .icons .thumb img {
+  width: 99px;
+  height: 99px;
+}
+
+main .how-it-work .work .icons .thumb h2 {
+  margin-top: 19px;
+}
+/*# sourceMappingURL=main.css.map */
